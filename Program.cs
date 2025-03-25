@@ -26,7 +26,7 @@ namespace KVCOMSVC
             //_eventLog1.Source = "KVCOMSVC";
             //_eventLog1.Log = "KVCOMSVC_LOG";
 
-            string filePath = "KVCOMSVC_SETTING";
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "KVCOMSVC_SETTING");
 
             try
             {
